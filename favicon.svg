@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f3ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bc13fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <style>
+    .w-shape {
+      fill: url(#grad1);
+      filter: drop-shadow(0 0 10px rgba(0, 243, 255, 0.5));
+    }
+  </style>
+  <path class="w-shape" d="M80 64l64 384 112-256 112 256 64-384h-64l-48 288-96-224h-32l-96 224-48-288z"/>
+</svg>
